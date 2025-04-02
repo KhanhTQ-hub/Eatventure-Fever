@@ -1,0 +1,135 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2206253384253775531
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2221231185743322188}
+  - component: {fileID: 7130136142547692187}
+  - component: {fileID: 1950444080141306709}
+  m_Layer: 0
+  m_Name: EffEarthFly
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2221231185743322188
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2206253384253775531}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 2045551874253801852}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7130136142547692187
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2206253384253775531}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff35035ad7bd7c54eb36b6f627078247, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enable: 1
+  pool: 1
+  exit: 2
+--- !u!210 &1950444080141306709
+SortingGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2206253384253775531}
+  m_Enabled: 1
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 10
+--- !u!1001 &7199936499161695009
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 2221231185743322188}
+    m_Modifications:
+    - target: {fileID: 9189615444492765789, guid: f869e789c4a5d2e4f867ff1f994996db, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9189615444492765789, guid: f869e789c4a5d2e4f867ff1f994996db, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9189615444492765789, guid: f869e789c4a5d2e4f867ff1f994996db, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9189615444492765789, guid: f869e789c4a5d2e4f867ff1f994996db, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9189615444492765789, guid: f869e789c4a5d2e4f867ff1f994996db, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9189615444492765789, guid: f869e789c4a5d2e4f867ff1f994996db, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9189615444492765789, guid: f869e789c4a5d2e4f867ff1f994996db, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9189615444492765789, guid: f869e789c4a5d2e4f867ff1f994996db, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9189615444492765789, guid: f869e789c4a5d2e4f867ff1f994996db, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9189615444492765789, guid: f869e789c4a5d2e4f867ff1f994996db, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9189615444492765789, guid: f869e789c4a5d2e4f867ff1f994996db, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9189615444492765790, guid: f869e789c4a5d2e4f867ff1f994996db, type: 3}
+      propertyPath: m_Name
+      value: Eff_Earth_Fly
+      objectReference: {fileID: 0}
+    - target: {fileID: 9189615444492765791, guid: f869e789c4a5d2e4f867ff1f994996db, type: 3}
+      propertyPath: m_Materials.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9189615444508224594, guid: f869e789c4a5d2e4f867ff1f994996db, type: 3}
+      propertyPath: m_Materials.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9189615444511833252, guid: f869e789c4a5d2e4f867ff1f994996db, type: 3}
+      propertyPath: m_Materials.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: f869e789c4a5d2e4f867ff1f994996db, type: 3}
+--- !u!4 &2045551874253801852 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 9189615444492765789, guid: f869e789c4a5d2e4f867ff1f994996db, type: 3}
+  m_PrefabInstance: {fileID: 7199936499161695009}
+  m_PrefabAsset: {fileID: 0}

@@ -1,0 +1,107 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2206253384253775531
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2221231185743322188}
+  m_Layer: 0
+  m_Name: EffWaterTree
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2221231185743322188
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2206253384253775531}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 3509150399837779134}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &5404106798765281163
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 2221231185743322188}
+    m_Modifications:
+    - target: {fileID: 4749099492801981692, guid: 45af9f8779681a0459fd0fdc3bcf1409, type: 3}
+      propertyPath: m_Materials.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4749099492802007456, guid: 45af9f8779681a0459fd0fdc3bcf1409, type: 3}
+      propertyPath: m_Materials.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8812488055130536757, guid: 45af9f8779681a0459fd0fdc3bcf1409, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8812488055130536757, guid: 45af9f8779681a0459fd0fdc3bcf1409, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8812488055130536757, guid: 45af9f8779681a0459fd0fdc3bcf1409, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.68
+      objectReference: {fileID: 0}
+    - target: {fileID: 8812488055130536757, guid: 45af9f8779681a0459fd0fdc3bcf1409, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8812488055130536757, guid: 45af9f8779681a0459fd0fdc3bcf1409, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8812488055130536757, guid: 45af9f8779681a0459fd0fdc3bcf1409, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8812488055130536757, guid: 45af9f8779681a0459fd0fdc3bcf1409, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8812488055130536757, guid: 45af9f8779681a0459fd0fdc3bcf1409, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8812488055130536757, guid: 45af9f8779681a0459fd0fdc3bcf1409, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8812488055130536757, guid: 45af9f8779681a0459fd0fdc3bcf1409, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8812488055130536757, guid: 45af9f8779681a0459fd0fdc3bcf1409, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8812488055130536760, guid: 45af9f8779681a0459fd0fdc3bcf1409, type: 3}
+      propertyPath: m_Name
+      value: Eff_Spray_Tree
+      objectReference: {fileID: 0}
+    - target: {fileID: 8812488055130536763, guid: 45af9f8779681a0459fd0fdc3bcf1409, type: 3}
+      propertyPath: m_Materials.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 45af9f8779681a0459fd0fdc3bcf1409, type: 3}
+--- !u!4 &3509150399837779134 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 8812488055130536757, guid: 45af9f8779681a0459fd0fdc3bcf1409, type: 3}
+  m_PrefabInstance: {fileID: 5404106798765281163}
+  m_PrefabAsset: {fileID: 0}
