@@ -1,0 +1,211 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f47b652fb4a1d4ba7a21b975db98d2bd, type: 3}
+  m_Name: FirebaseAnalyticServiceSettings
+  m_EditorClassIdentifier: 
+  eventData:
+    events:
+    - name: ads_click
+      params:
+      - type: 2
+        key: source
+    - name: ads_reward
+      params:
+      - type: 2
+        key: source
+    - name: buy_resource
+      params:
+      - type: 2
+        key: item_category
+      - type: 2
+        key: item_name
+      - type: 2
+        key: item_id
+      - type: 2
+        key: source
+      - type: 2
+        key: source_id
+      - type: 0
+        key: value
+      - type: 0
+        key: remaining_value
+    - name: earn_resource
+      params:
+      - type: 2
+        key: item_category
+      - type: 2
+        key: item_name
+      - type: 2
+        key: item_id
+      - type: 2
+        key: source
+      - type: 2
+        key: source_id
+      - type: 0
+        key: value
+      - type: 0
+        key: remaining_value
+    - name: spend_resource
+      params:
+      - type: 2
+        key: item_category
+      - type: 2
+        key: item_name
+      - type: 2
+        key: item_id
+      - type: 2
+        key: source
+      - type: 2
+        key: source_id
+      - type: 0
+        key: value
+      - type: 0
+        key: remaining_value
+      - type: 2
+        key: event_universe
+    - name: thanksgiving
+      params:
+      - type: 2
+        key: thanksgiving_event
+    - name: in_app_purchase
+      params:
+      - type: 2
+        key: product_id
+    - name: holly_jolly_reward
+      params:
+      - type: 0
+        key: reward_milstone
+    - name: open_special
+      params:
+      - type: 0
+        key: id_special
+      - type: 2
+        key: source
+      - type: 2
+        key: source_id
+      - type: 0
+        key: value
+      - type: 0
+        key: milestone
+      - type: 0
+        key: star
+    - name: complete_tutorial_special
+      params:
+      - type: 0
+        key: id_special
+    - name: valentine_reward
+      params:
+      - type: 0
+        key: reward_milstone
+    - name: start_level
+      params:
+      - type: 2
+        key: level
+    - name: start_tutorial
+      params:
+      - type: 2
+        key: tutorial_name
+      - type: 2
+        key: level
+    - name: complete_tutorial
+      params:
+      - type: 2
+        key: tutorial_name
+      - type: 2
+        key: level
+    - name: level_period
+      params:
+      - type: 2
+        key: level
+      - type: 2
+        key: engagement_msec
+    - name: easter_reward
+      params:
+      - type: 0
+        key: reward_milestone
+    - name: happy_easter
+      params:
+      - type: 0
+        key: day
+    - name: play_easter_egg
+      params: []
+    - name: easter_egg_reward
+      params:
+      - type: 0
+        key: digging_milestone
+    - name: map_universe
+      params:
+      - type: 2
+        key: name
+      - type: 2
+        key: level
+    - name: summer_reward
+      params:
+      - type: 0
+        key: reward_milestone
+    - name: happy_summer
+      params:
+      - type: 0
+        key: day
+    - name: summer_sand_reward
+      params:
+      - type: 0
+        key: digging_milestone
+    - name: end_event_universe
+      params:
+      - type: 2
+        key: universe
+      - type: 2
+        key: map
+      - type: 2
+        key: id_star
+    - name: play_minigame_merge
+      params:
+      - type: 0
+        key: engagement_msec
+      - type: 2
+        key: ga_session_id
+    - name: invite_success
+      params:
+      - type: 2
+        key: invite_num
+    - name: autumn_reward
+      params:
+      - type: 0
+        key: reward_milestone
+    - name: autumn_sand_reward
+      params:
+      - type: 0
+        key: digging_milestone
+    - name: hollyjolly_sand_reward
+      params:
+      - type: 0
+        key: digging_milestone
+    - name: receive_uniform
+      params:
+      - type: 0
+        key: id
+    - name: complete_picture
+      params:
+      - type: 0
+        key: id
+  userPropertyData:
+    properties:
+    - name: player_id
+    - name: online_time
+    - name: level
+    - name: iap_count
+    - name: iaa_count
+    - name: iap_revenue
+    - name: remaining_gold
+    - name: remaining_gem
+    - name: christmas_level

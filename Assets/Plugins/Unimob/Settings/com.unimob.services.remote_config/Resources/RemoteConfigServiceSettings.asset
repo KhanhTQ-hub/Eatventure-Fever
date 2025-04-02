@@ -1,0 +1,69 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f481c439402b141998550c6d7b49c8e4, type: 3}
+  m_Name: RemoteConfigServiceSettings
+  m_EditorClassIdentifier: 
+  automateFetching: 1
+  configs:
+  - name: ab_black_list_device
+    type: 2
+    defaultValue: 
+  - name: ab_season
+    type: 2
+    defaultValue: 11,0.02|5,0.02|1,0.02|10,0.02|0,0.02|3,0.02|4,0.02|2,0.02|9,0.02|6,0.02|7,0.02|8,0.02
+  - name: ab_multiplier
+    type: 2
+    defaultValue: 0
+  - name: ab_event
+    type: 2
+    defaultValue: Jerwelry,3|Magic,3|Lotto,3|Farm,3|Moon,3|Halloween,3
+  - name: ab_elon_musk
+    type: 2
+    defaultValue: c
+  - name: ab_reward_ads
+    type: 2
+    defaultValue: 2
+  - name: enable_gift_code_android
+    type: 2
+    defaultValue: 1
+  - name: enable_gift_code_ios
+    type: 2
+    defaultValue: 1
+  - name: ab_elon_mush_inter_ads
+    type: 2
+    defaultValue: b
+  - name: ab_ui_main_game
+    type: 2
+    defaultValue: b
+  - name: EventLoop
+    type: 2
+    defaultValue: '{"StartDate":"24-04-2024 16:00:00","Events":[{"Name":"Ocean","Priority":0,"Duration":3,"Countdown":100,"VersionRequire":"3.8.0"},{"Name":"Ocean","Priority":1,"Duration":3,"Countdown":100,"VersionRequire":"3.8.0"},{"Name":"Ocean","Priority":2,"Duration":1,"Countdown":100,"VersionRequire":"3.8.0"},{"Name":"Ocean","Priority":3,"Duration":2,"Countdown":100,"VersionRequire":"3.8.0"},{"Name":"HalloweenPoint","Priority":4,"Duration":2,"Countdown":100,"VersionRequire":"3.8.0"},{"Name":"SpendGem1","Priority":5,"Duration":1,"Countdown":7200,"VersionRequire":"3.8.0"}],"Specials":[{"Name":"Autumn","BeginDate":"10-07-2024
+      16:00:00","Duration":7,"Countdown":7200,"VersionRequire":"3.9.0"},{"Name":"HelloSummer","BeginDate":"30-05-2024
+      16:00:00","Duration":33,"Countdown":7200,"VersionRequire":"3.9.0"}]}'
+  - name: feature_remote
+    type: 2
+    defaultValue: '{"Events":[{"Name":"IconEvent","IsOn":true,"VersionRequire":"1.0.0"},{"Name":"IconEventSpecial","IsOn":true,"VersionRequire":"1.0.0"}],"Packages":[{"Name":"Daily","IsOn":true,"VersionRequire":"1.0.0"},{"Name":"StarterPack","IsOn":true,"VersionRequire":"1.0.0"},{"Name":"Lotto","IsOn":true,"VersionRequire":"1.0.0"}],"Rewards":[{"Name":"SevenDays","IsOn":true,"VersionRequire":"1.0.0"},{"Name":"GrowthPack","IsOn":true,"VersionRequire":"1.0.0"},{"Name":"RewardAds","IsOn":true,"VersionRequire":"1.0.0"}]}'
+  - name: ab_7_days
+    type: 2
+    defaultValue: c
+  - name: ab_stater_pack
+    type: 2
+    defaultValue: b
+  - name: event_tier3
+    type: 2
+    defaultValue: a
+  - name: summer_event_tier3
+    type: 2
+    defaultValue: a
+  - name: ab_tasks_main
+    type: 2
+    defaultValue: b
